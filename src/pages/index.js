@@ -19,43 +19,45 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
+              About me
               <br />
-              magna sed accumsan arcu neque.
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+          I am a full stack developer with a background in fine arts. 
+          When I am not writing code you can find me tinkering in my studio or out riding bikes. 
+          Coming from an art background has fostered creative problem-solving skills that I apply to programming. 
+          Always excited to take on challenges and be able to create the best solutions.
+            <br></br>
+            <br></br>
+            If interested checkout my <a href="https://jorgesguillen.com/" target="_blank" >studio</a> and read my <a href="https://medium.com/@jorgeguilln_8047" target="_blank" >blog</a>!
           </p>
-          <ul className="actions">
+          {/* <ul className="actions">
             <li>
               <a href="#" className="button">
                 Learn More
               </a>
             </li>
-          </ul>
+          </ul> */}
         </section>
 
         <section id="two">
+          <header className="major">
           <h2>Recent Work</h2>
+          </header>
 
           <Gallery />
 
-          <ul className="actions">
+          {/* <ul className="actions">
             <li>
               <a href="#" className="button">
                 Full Portfolio
               </a>
             </li>
-          </ul>
+          </ul> */}
         </section>
 
-        <section id="three">
+        {/* <section id="three">
           <h2>Get In Touch</h2>
           <p>
             Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
@@ -64,7 +66,7 @@ const HomeIndex = () => {
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
+              <form method="post" action="mailto:jorgeguilln@gmail.com">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
@@ -125,7 +127,7 @@ const HomeIndex = () => {
               </ul>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </Layout>
   )

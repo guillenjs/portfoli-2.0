@@ -23,6 +23,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           thumbnail={obj.thumbnail}
           caption={obj.caption}
           description={obj.description}
+          stack = {obj.stack}
           position={obj.position}
           toggleLightbox={obj.toggleLightbox}
           position={i}
@@ -31,13 +32,13 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
         })}
         </div>
       )}
-      <ModalGateway>
+      {/* <ModalGateway>
         {lightboxIsOpen && (
           <Modal onClose={toggleLightbox}>
             <Carousel currentIndex={selectedIndex} views={images} />
           </Modal>
         )}
-      </ModalGateway>
+      </ModalGateway> */}
     </div>
   )
 }

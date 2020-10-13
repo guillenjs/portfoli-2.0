@@ -4,33 +4,31 @@ const Footer = () => (
   <div id="footer">
     <div className="inner">
       <ul className="icons">
+      
         <li>
-          <a href="#" className="icon fa-twitter">
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-github">
+          <a href="https://github.com/guillenjs" className="icon fa-github" target="_blank">
             <span className="label">Github</span>
           </a>
         </li>
+   
         <li>
-          <a href="#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
+          <a href="https://www.linkedin.com/in/jorge-guillen-53a4421aa" className="icon fa-linkedin" target="_blank">
+            <span className="label">Email</span>
           </a>
         </li>
+    
         <li>
-          <a href="#" className="icon fa-envelope-o">
+          <a href="mailto:jorgeguilln@gmail.com" className="icon fa-envelope-o" target="_blank">
             <span className="label">Email</span>
           </a>
         </li>
       </ul>
-      <ul className="copyright">
+      {/* <ul className="copyright">
         <li>&copy; Gatsby Starter Strata</li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   </div>
 )
