@@ -24,13 +24,15 @@ const HomeIndex = () => {
             </h2>
           </header>
           <p>
-          I am a full stack developer with a background in fine arts. 
-          When I am not writing code you can find me tinkering in my studio or out riding bikes. 
-          Coming from an art background has fostered creative problem-solving skills that I apply to programming. 
-          Always excited to take on challenges and be able to create the best solutions.
+          I am a full stack developer based in New York City. 
+          When I am not writing code you can find me tinkering in my studio or riding my bike exploring the city.
+          <br></br>
+          <br></br>
+          Coming from a fine art background has fostered creative problem-solving skills that I apply to programming as well as a trained eye for front end design. 
+          I'm always excited to take on new challenges and be able to create optimal solutions.
             <br></br>
             <br></br>
-            If interested checkout my <a href="https://jorgesguillen.com/" target="_blank" >studio</a> and read my <a href="https://medium.com/@jorgeguilln_8047" target="_blank" >blog</a>!
+            If you're interested in my side projects checkout my <a href="https://jorgesguillen.com/" target="_blank" >studio</a> or read my <a href="https://medium.com/@jorgeguilln_8047" target="_blank" >blog</a>!
           </p>
           {/* <ul className="actions">
             <li>
