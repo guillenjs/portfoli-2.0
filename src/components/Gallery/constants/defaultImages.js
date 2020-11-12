@@ -7,7 +7,7 @@ import full06 from '../../../assets/images/fulls/06.jpg'
 import thumb02 from '../../../assets/images/thumbs/chalkboard.png'
 import thumb01 from '../../../assets/images/thumbs/porkslope.png'
 import thumb03 from '../../../assets/images/thumbs/artbox.png'
-import thumb04 from '../../../assets/images/thumbs/04.jpg'
+import thumb04 from '../../../assets/images/thumbs/trivia-400.png'
 import thumb05 from '../../../assets/images/thumbs/porkslope.png'
 import thumb06 from '../../../assets/images/thumbs/06.jpg'
 
@@ -35,8 +35,16 @@ export const DEFAULT_IMAGES = [
       source: "https://github.com/guillenjs/art-box",
       thumbnail: thumb03,
       caption: 'The Artbox',
-      description: 'A place for artists to upload their artworks and have collectors able to connect/like their artworks.',
+      description: 'A place for artists to upload their artworks and have collectors able to connect/like their artworks. This application was created with a partner.',
       stack: "JavaScript, Rails, CSS, PostgreSQL"
+    },
+    {
+      id: '4',
+      source: "https://github.com/guillenjs/trivia-app",
+      thumbnail: thumb04,
+      caption: 'Trivia-400',
+      description: 'Trivia-400 is an application for user to take trivia quizzes and further their knowledge.',
+      stack: "JavaScript, React, Rails, CSS, PostgreSQL"
     },
     // {
     //   id: '4',
