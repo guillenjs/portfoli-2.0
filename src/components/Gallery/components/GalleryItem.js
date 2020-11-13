@@ -10,7 +10,7 @@ const GalleryItem = ({id, source, thumbnail, caption, description, stack, demo, 
 
     const renderDemo = () => {
         if(demo !== ""){
-            return <a href={demo}>| Demo</a>
+            return <a href={demo} target="_blank">| Demo</a>
         }
     }
     console.log(demo)
