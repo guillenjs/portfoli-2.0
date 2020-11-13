@@ -24,6 +24,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           caption={obj.caption}
           description={obj.description}
           stack = {obj.stack}
+          demo = {obj.demo}
           position={obj.position}
           toggleLightbox={obj.toggleLightbox}
           position={i}

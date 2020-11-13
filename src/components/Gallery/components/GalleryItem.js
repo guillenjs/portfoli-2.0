@@ -1,12 +1,19 @@
 import React, { useCallback } from 'react'
 import PropTypes from 'prop-types'
 
-const GalleryItem = ({id, source, thumbnail, caption, description, stack, position, toggleLightbox}) => {
+const GalleryItem = ({id, source, thumbnail, caption, description, stack, demo, position, toggleLightbox}) => {
 
     const onClick = useCallback((e) => {
         e.preventDefault()
         toggleLightbox(position)
     }, [position, toggleLightbox]);
+
+    const renderDemo = () => {
+        if(demo !== ""){
+            return <a href={demo}>| Demo</a>
+        }
+    }
+    console.log(demo)
 
     return (<article key={id} className="6u 12u$(xsmall) work-item">
         <a
@@ -24,7 +31,7 @@ const GalleryItem = ({id, source, thumbnail, caption, description, stack, positi
             <br></br>
             <b>Tech Stack</b>: {stack}
             <br></br>
-            <a href={source} target="_blank" alt="link to project github" >Github</a> {/*| <a href='#'>Demo</a> */}
+            <a href={source} target="_blank" alt="link to project github" >Github</a>  {renderDemo()}
           
             </p>
             

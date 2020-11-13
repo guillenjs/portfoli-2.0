@@ -19,7 +19,8 @@ export const DEFAULT_IMAGES = [
       thumbnail: thumb01,
       caption: 'Porkslope',
       description: 'A grocery store application that lets you make grocery lists based on the inventory available at the store.',
-      stack: "JavaScript, React, Rails, CSS, PostgreSQL"
+      stack: "JavaScript, React, Rails, CSS, PostgreSQL",
+      demo: ""
     },
     
     {
@@ -28,7 +29,8 @@ export const DEFAULT_IMAGES = [
       thumbnail: thumb02,
       caption: 'Porkslope',
       description: 'An application for teachers to create assignments so students can complete and be graded on.',
-      stack: "JavaScript, React, Rails, CSS, PostgreSQL"
+      stack: "JavaScript, React, Rails, CSS, PostgreSQL",
+      demo: ""
     },
     {
       id: '3',
@@ -36,7 +38,8 @@ export const DEFAULT_IMAGES = [
       thumbnail: thumb03,
       caption: 'The Artbox',
       description: 'A place for artists to upload their artworks and have collectors able to connect/like their artworks. This application was created with a partner.',
-      stack: "JavaScript, Rails, CSS, PostgreSQL"
+      stack: "JavaScript, Rails, CSS, PostgreSQL",
+      demo: ""
     },
     {
       id: '4',
@@ -44,7 +47,8 @@ export const DEFAULT_IMAGES = [
       thumbnail: thumb04,
       caption: 'Trivia-400',
       description: 'Trivia-400 is an application for user to take trivia quizzes and further their knowledge.',
-      stack: "JavaScript, React, Rails, CSS, PostgreSQL"
+      stack: "JavaScript, React, Rails, CSS, PostgreSQL",
+      demo: "https://trivia-400.netlify.app/"
     },
     // {
     //   id: '4',
