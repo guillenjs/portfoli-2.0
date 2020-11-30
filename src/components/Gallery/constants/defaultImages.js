@@ -8,7 +8,7 @@ import thumb02 from '../../../assets/images/thumbs/chalkboard.png'
 import thumb01 from '../../../assets/images/thumbs/porkslope.png'
 import thumb03 from '../../../assets/images/thumbs/artbox.png'
 import thumb04 from '../../../assets/images/thumbs/trivia-400.png'
-import thumb05 from '../../../assets/images/thumbs/porkslope.png'
+import thumb05 from '../../../assets/images/thumbs/filmreel.png'
 import thumb06 from '../../../assets/images/thumbs/06.jpg'
 
 
@@ -34,12 +34,12 @@ export const DEFAULT_IMAGES = [
     },
     {
       id: '3',
-      source: "https://github.com/guillenjs/art-box",
-      thumbnail: thumb03,
-      caption: 'The Artbox',
-      description: 'A place for artists to upload their artworks and have collectors able to connect/like their artworks. This application was created with a partner.',
-      stack: "JavaScript, Rails, CSS, PostgreSQL",
-      demo: ""
+      source: "https://github.com/guillenjs/film-reel-frontend",
+      thumbnail: thumb05,
+      caption: 'Filmreel',
+      description: 'Filmreel is an application tha allows you to search for movies, view their descriptions, and will allow you to like them or dislike them.',
+      stack: "JavaScript, React, Rails, CSS, PostgreSQL",
+      demo: "https://film-reel.netlify.app/"
     },
     {
       id: '4',
@@ -50,13 +50,15 @@ export const DEFAULT_IMAGES = [
       stack: "JavaScript, React, Rails, CSS, PostgreSQL",
       demo: "https://trivia-400.netlify.app/"
     },
-    // {
-    //   id: '4',
-    //   source: full04,
-    //   thumbnail: thumb04,
-    //   caption: 'Photo 4',
-    //   description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-    // },
+    {
+      id: '5',
+      source: "https://github.com/guillenjs/art-box",
+      thumbnail: thumb03,
+      caption: 'The Artbox',
+      description: 'A place for artists to upload their artworks and have collectors able to connect/like their artworks. This application was created with a partner.',
+      stack: "JavaScript, Rails, CSS, PostgreSQL",
+      demo: ""
+    },
     // {
     //   id: '5',
     //   source: full05,
